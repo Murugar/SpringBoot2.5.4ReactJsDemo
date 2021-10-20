@@ -4,13 +4,13 @@ module.exports = {
         filename: './site/bundle.js'
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.jsx?$/,         
                 exclude: /node_modules/, 
                 loader: "babel-loader", 
-                query:
-                {
+                options:
+		{
                    presets: ['es2015', 'react']
                 }
                 

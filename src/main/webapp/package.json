@@ -9,14 +9,15 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-     "react": "latest",
-     "react-dom": "latest"
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
     "babel-core": "latest",
-    "babel-loader": "latest",
+    "babel-loader": "^7.1.5",
     "babel-preset-es2015": "latest",
     "babel-preset-react": "latest",
-    "webpack": "latest"
+    "webpack": "latest",
+    "webpack-cli": "^4.9.1"
   }
 }
