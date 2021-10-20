@@ -16,7 +16,7 @@ apply plugin: 'io.spring.dependency-management'
 
 
 jar {
-    baseName = 'Spring1.5.22BootReact'
+    baseName = 'Spring2.5.4BootReactJsDemo
     version =  '1.0'
 }
 
